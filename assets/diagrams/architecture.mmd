@@ -1,0 +1,5 @@
+flowchart LR
+    A["Browser"] --> B["Next.js page"]
+    C["Status client"] --> D["/api/v1/status"]
+    D --> E["Database adapter"]
+    E --> F["PostgreSQL container"]
